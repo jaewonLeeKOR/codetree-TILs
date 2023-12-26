@@ -10,7 +10,7 @@ int main() {
         }
         int num = i;
         while(num) {
-            if((num % 10)%3 == 0) {
+            if((num % 10)%3 == 0 && (num % 10) != 0) {
                 cnt++;
                 break;
             }
